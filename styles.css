@@ -1,33 +1,38 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-    }
-    h1 {
-        text-align: center;
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-    }
-    li {
-        margin-bottom: 10px;
-    }
-    a {
-        text-decoration: none;
-        color: #333;
-        background-color: #ddd;
-        padding: 10px 20px;
-        border-radius: 5px;
-        display: inline-block;
-        transition: background-color 0.3s ease;
-    }
-    a:hover {
-        background-color: #555;
-        color: #fff;
-    }
-</style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212121; /* Dark background */
+    color: #fff; /* White text */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px; /* Adjust spacing */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 20px; /* Adjust spacing */
+}
+
+a {
+    text-decoration: none;
+    color: #03a9f4; /* Blue links */
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    border: 2px solid #03a9f4; /* Blue border */
+}
+
+a:hover {
+    background-color: #03a9f4; /* Blue background on hover */
+    color: #212121; /* Dark text on hover */
+}
