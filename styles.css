@@ -3,7 +3,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #212121; /* Dark background */
+    background-color: #121212; /* Dark background */
     color: #fff; /* White text */
 }
 
@@ -35,7 +35,7 @@ a {
 
 a:hover {
     background-color: #03a9f4; /* Blue background on hover */
-    color: #212121; /* Dark text on hover */
+    color: #121212; /* Dark text on hover */
 }
 
 </style>
