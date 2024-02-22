@@ -6,6 +6,56 @@
     <title>My Cyber Security Links</title>
     <style>
         body {
+            
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0; /* Add space above and below the links */
+            display: flex; /* Make the links display horizontally */
+            justify-content: center; /* Center the links horizontally */
+            flex-wrap: wrap; /* Allow links to wrap to the next line if needed */
+        }
+
+        li {
+            margin: 0 10px; /* Adjust spacing between links */
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff; /* White links */
+            background-color: #1e1e1e; /* Dark gray buttons */
+            padding: 10px 20px;
+            border-radius: 25px; /* Rounded corners */
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            border: 2px solid #1e1e1e; /* Dark gray border */
+        }
+
+        a:hover {
+            background-color: #363636; /* Darker gray on hover */
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Adjustments for smaller screens */
+            .logo {
+                width: 50%; /* Make logo width 50% of the container */
+                max-width: 100px; /* Limit maximum logo width */
+            }
+
+            ul {
+                flex-direction: column; /* Stack links vertically on smaller screens */
+            }
+
+            li {
+                margin: 10px 0; /* Adjust spacing between links */
+            }
+        }
+
+
+
+            
+
+            ////////
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -58,7 +108,7 @@
 <body>
     <div class="container">
         <h1>My Cyber Security Links</h1>
-        <img src="logo.png" alt="Logo" class="logo">
+        <img src="gg.png" alt="Logo" class="logo">
         <ul>
             <li><a href="https://www.facebook.com/yourprofile">Facebook</a></li>
             <li><a href="https://twitter.com/yourprofile">Twitter</a></li>
