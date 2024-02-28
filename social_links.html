@@ -9,13 +9,16 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            background-color: #f5f5f5;
         }
         .container {
-            max-width: 600px;
+            max-width: 100%;
             margin: 0 auto;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            background-color: #fff;
+            box-sizing: border-box;
         }
         h1 {
             color: #333;
@@ -30,6 +33,13 @@
             font-size: 18px;
             font-weight: bold;
             margin-top: 20px;
+            display: inline-block;
+        }
+        .closure-info {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -39,9 +49,12 @@
         <p>Dear [Customer's Name],</p>
         <p>We are pleased to confirm that your iCloud removal request has been successfully processed.</p>
         <p>Your order number is: <span class="order-number">AJI397DF</span></p>
-        <p>Our team is now working diligently to remove iCloud from your device. You will receive a confirmation email once the process is complete.</p>
-        <p>Thank you for choosing our services.</p>
-        <p>Best regards,<br>[Your Name]<br>[Your Position/Title]<br>[Company Name]</p>
+        <p>Our team is now working diligently to remove iCloud from your device. The Apple Watch associated with your iCloud account will be unlocked within 24 hours.</p>
+        <div class="closure-info">
+            <p>Please note that if you have any further questions or concerns, you can contact our support team at [support@example.com].</p>
+            <p>Thank you for choosing our services.</p>
+            <p>Best regards,<br>[Your Name]<br>[Your Position/Title]<br>[Company Name]</p>
+        </div>
     </div>
 </body>
 </html>
